@@ -31,7 +31,7 @@ sed -i -e 's/^# gem/gem/g' Gemfile
 rm Gemfile-e
 
 # Ruby on Rails インストール
-bundle install --path vender/bundle --jobs 4
+bundle install --path vendor/bundle --jobs 4
 
 if bundle exec rails -v > /dev/null; then
     echo "Ruby on Railsのインストールを完了しました。"
