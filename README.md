@@ -19,7 +19,7 @@ $ ./init.sh
 ```bash
 $ rm -rf init.sh README.md .git
 ```
-4. プロジェクト作成
+4. プロジェクト作成  
 -dオプションで使用するデータベースを指定する。ここではpostgresqlとしている。  
 以下のコマンドを実行すると、"Overridde ~~~ /Gemfile? ~~~ [Ynaqdh]"と聞かれるのでYと入力しエンター。
 ```bash
